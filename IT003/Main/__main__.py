@@ -6,6 +6,7 @@ if __name__ == "__main__":
     
     if ("Main" not in os.getcwd()):
         print("[__main__] Please change your working directory to /IT003/Main then run this script again!")
+	print("[__main__] Hint: Try 'cd ./Main' in your terminal")
         exit(1)
         
     while True:
