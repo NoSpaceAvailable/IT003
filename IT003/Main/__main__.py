@@ -6,7 +6,6 @@ if __name__ == "__main__":
     
     if ("Main" not in os.getcwd()):
         print("[__main__] Please change your working directory to /IT003/Main then run this script again!")
-	print("[__main__] Hint: Try 'cd ./Main' in your terminal")
         exit(1)
         
     while True:
@@ -21,10 +20,10 @@ if __name__ == "__main__":
                 print("[__main__] Testcases generated!")
             except Exception as e:
                 print(f"[__main__] Error: {e}")
-        if choice == 2:
+        elif choice == 2:
             print("[__main__] Switching to core ...\n")
             os.system("python3 __core__.py")
-        if choice == 3:
+        elif choice == 3:
             print("[__main__] Bye!")
             exit(1)
         else:

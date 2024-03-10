@@ -3,8 +3,8 @@ import os
 if __name__ == "__main__":
     print("[__core__] Core running")
     
-    cpp_engines = ["quick_sort", "merge_sort", "heap_sort"]
-    py_engines = ["numpy_sort", "python_sort"]
+    cpp_engines = ["quick_sort", "merge_sort", "heap_sort", "sort_cpp"]
+    py_engines = ["numpy_sort"]
     exec_path = os.path.abspath(os.path.dirname(__file__))
     
     for engine in cpp_engines:
